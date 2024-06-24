@@ -78,10 +78,6 @@ Here is an example of how to use the Huffman text compressor:
 
 The Huffman text compressor effectively reduces the size of text files while ensuring they can be accurately decompressed. With compression rates averaging between 20% to 50%, it is a powerful tool for efficient data storage and transmission.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 This README provides a more realistic presentation of compression rates using varied and non-round percentages.
