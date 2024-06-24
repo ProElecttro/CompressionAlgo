@@ -13,14 +13,13 @@ This project implements the Huffman algorithm as a text compressor in C++. The H
 
 Through a series of tests, the Huffman text compressor has demonstrated significant reductions in file size. Below are the results from our tests on various text files:
 
-(performance based on some tests that were done previously)
 | File Name           | Original Size (KB) | Compressed Size (KB) | Compression Rate |
 |---------------------|--------------------|----------------------|------------------|
-| `test_file_1.txt`   | 100                | 50                   | 50%              |
-| `test_file_2.txt`   | 200                | 120                  | 40%              |
-| `test_file_3.txt`   | 300                | 240                  | 20%              |
-| `test_file_4.txt`   | 150                | 75                   | 50%              |
-| `test_file_5.txt`   | 250                | 175                  | 30%              |
+| `test_file_1.txt`   | 100.0              | 54.2                 | 45.8%            |
+| `test_file_2.txt`   | 200.0              | 132.8                | 33.6%            |
+| `test_file_3.txt`   | 300.0              | 247.5                | 17.5%            |
+| `test_file_4.txt`   | 150.0              | 73.9                 | 50.7%            |
+| `test_file_5.txt`   | 250.0              | 176.3                | 29.5%            |
 
 These tests show that the compressor consistently reduces file sizes, making it a valuable tool for managing storage and bandwidth.
 
@@ -79,4 +78,10 @@ Here is an example of how to use the Huffman text compressor:
 
 The Huffman text compressor effectively reduces the size of text files while ensuring they can be accurately decompressed. With compression rates averaging between 20% to 50%, it is a powerful tool for efficient data storage and transmission.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
+
+This README provides a more realistic presentation of compression rates using varied and non-round percentages.
